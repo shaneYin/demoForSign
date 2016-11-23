@@ -1,0 +1,162 @@
+
+/* main css for login
+   2016.11.12
+*/
+/*
+	-public
+	-input && body
+	-sign-nav
+	-sign-box
+ */
+
+/*  public  */
+
+.w880{
+	width: 880px;
+}
+.w230{
+	width: 200px;
+}
+.m-top{
+	margin-top: 18px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.clearfix{
+	overflow: hidden;
+	*zoom: 1;
+}
+.clearfix:before,.clearfix:after{
+	display: table;
+	line-height: 0;
+	content: "";
+}
+.clearfix:after{
+	clear: both;
+}
+
+/*  input && body  */
+input{
+	outline: none;
+	height: 34px;
+	font-size: 14px;
+	border: none;
+	*border: 0;
+}
+body{
+	overflow: hidden;
+	*zoom: 1;
+}
+img{
+	width: 100%;
+}
+/*  sign-nav  */
+.main{
+	position: absolute;
+	top: 24%;
+	left: 50%;
+	margin-left: -204px;
+	width: 408px;
+	border-radius: 5px;
+	background-color: rgba(222,247,166,0.85);
+	*zoom: 1;
+}
+
+.log-box{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.sign-nav{
+	overflow: hidden;
+	*zoom: 1;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}
+.sign-nav span{
+	margin: 0 15px;
+	font-size: 17.5px;
+	font-weight: bold;
+	color: #b1b1b1;
+}
+.sign-nav i{
+	display: block;
+	width: 134px;
+	height: 1px;
+	margin-top: 8px;
+	background-color: #b1b1b1;
+	-overflow: hidden;
+}
+.sign-nav-text{
+	float: left;
+	margin-left: 14px;
+}
+.sign-in-nav,.sign-up-nav{
+	font-size: 17.5px;
+	font-weight: bold; 
+	color: #b1b1b1;
+	cursor: pointer;
+}
+.sign-in-nav{
+	color: #555555;
+}
+
+
+/*  sign-box  */
+.sign-in-item,.sign-up-item{
+	margin-left: 65px;
+	width: 274px;
+	border: 1px solid #CCCCCC;
+	border-radius: 4px;
+	text-align: center;
+}
+.sign-box i{
+	display: inline-block;
+	width: 34px;
+	height: 34px;
+	*margin-top: 1px;
+	padding: 4px 5px;
+	border-right: 1px solid #CCCCCC;
+	vertical-align: top;
+}
+i.user{
+	background: url(../images/user_16.png) no-repeat 14px 14px;
+}
+i.password{
+	background: url(../images/password_16.png) no-repeat 12px 14px;
+}
+.text-input{
+	padding: 4px 12px;
+}
+*.text-input{
+	line-height: 34px;
+}
+.btn-sign-in,.btn-sign-up{
+	position: relative;
+	left: 64px;
+	width: 280px;
+	height: 48px;
+	border: none;
+	border-radius: 2px;
+	padding: 14px 18px;
+	font-size: 18px;
+	cursor: pointer;
+	line-height: 20px;
+	color: white;
+}
+.btn-sign-in{
+	background: #049cdb;
+}
+.btn-sign-in:hover{
+	background: #3dbcf5;
+}
+.btn-sign-up{
+	background: #49be38;
+}
+.btn-sign-up:hover{
+	background: #6bd95b;
+}

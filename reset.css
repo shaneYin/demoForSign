@@ -1,0 +1,19 @@
+
+/*reset css for login
+  2016.11.21*/
+body,input,form,select,ul,ol,li,p,h1,h2,h3,h4,h5{
+	margin: 0;
+	padding: 0;
+}
+body,input{
+	font: 12px/1.5em "Helvetica Neue", Arial, "lucida grande",  lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+	color: #666666;
+}
+
+ul,ol,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #666666;
+}
