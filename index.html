@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>不知道用什么标题</title>
+	<!--[if IE 6]>
+		<style type=text/css >
+			input {
+				filter:chroma(color=#000000);
+			}
+		</style>
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script type="text/javascript" src="scripts/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+</head>
+<body>
+	<img src="images/bg_body.jpg">
+	<div class="main">
+		<!-- start log-box注册登录框体 -->
+		<div class="log-box">
+			<!-- start sign-nav注册登录框体的导航部分 -->
+			<div class="sign-nav">
+				<i class="left"></i>
+				<div class="sign-nav-text">
+					<a class="sign-in-nav" id="signInNav">登录</a>
+					<span>·</span>
+					<a class="sign-up-nav" id="signUpNav">注册</a>
+				</div>
+				<i class="right"></i>
+			</div>
+			<!-- end sign-nav -->
+			<!-- start sign-box注册登录框体的内容 -->
+			<div class="sign-box">
+				<!-- start sign-in-box登录框体的内容 -->
+				<div class="sign-in-box">
+					<form action="check.jsp" method="POST">
+						<div class="sign-in-item m-top">
+							<i class="user"></i><input type="text" name="userName" id="userName" class="text-input w230" autocomplete="off" placeholder="用户名/电子邮箱/手机号码"/>
+						</div>
+						<div class="sign-in-item m-top">
+							<i class="password"></i><input type="password" name="pwd" id="pwd" class="text-input w230" autocomplete="off" placeholder="密码" />
+						</div>
+						<div class="sign-in-btn m-top">
+							<input type="submit" value="登录" class="btn-sign-in" id="btnSignIn" />
+						</div>
+					</form>
+				</div>
+				<!-- end sign-in-box -->
+				<!-- start sign-up-box注册框体的内容 -->
+				<div class="sign-up-box">
+					<form>
+						<div class="sign-up-item m-top">
+							<i class="user"></i><input type="text" name="userName" id="userName" class="text-input w230" autocomplete="off" placeholder="用户名/电子邮箱/手机号码"/>
+						</div>
+						<div class="sign-up-item m-top">
+							<i class="password"></i><input type="password" name="pwd" id="pwd" class="text-input w230" autocomplete="off" placeholder="密码" />
+						</div>
+						<div class="sign-up-item m-top">
+							<i class="password"></i><input type="password" name="pwdCheck" id="pwdCheck" class="text-input w230" autocomplete="off" placeholder="重复密码"  />
+						</div>
+						<div class="sign-up-btn m-top">
+							<input type="submit" value="注册" class="btn-sign-up" id="btnSignUp" />
+						</div>
+					</form>
+				</div>
+				<!-- end sign-up-box -->
+			</div>
+			<!-- end sign-box -->
+		</div>
+		<!-- end log-box -->
+	</div>
+</body>
+</html>
